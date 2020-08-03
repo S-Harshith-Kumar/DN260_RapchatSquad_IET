@@ -271,7 +271,7 @@ public class SellerSignUpFragment extends Fragment {
     }
 
     private void mainIntent(){
-        Intent mainIntent = new Intent(getActivity(),DeliveryActivity.class);
+        Intent mainIntent = new Intent(getActivity(),SellerActivity.class);
         startActivity(mainIntent);
         getActivity().finish();
     }

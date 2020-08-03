@@ -61,7 +61,7 @@ public class SellerSignInFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_sign_in, container, false);
+        View view = inflater.inflate(R.layout.fragment_seller_sign_in, container, false);
         dontHaveAnAccount= view.findViewById(R.id.tv_dont_have_an_account);
         frameLayout = getActivity().findViewById(R.id.register_framelayout);
 
@@ -203,7 +203,7 @@ public class SellerSignInFragment extends Fragment {
     }
 
     private void mainIntent() {
-        Intent mainIntent = new Intent(getActivity(), MainnActivity.class);
+        Intent mainIntent = new Intent(getActivity(), SellerActivity.class);
         startActivity(mainIntent);
         getActivity().finish();
     }

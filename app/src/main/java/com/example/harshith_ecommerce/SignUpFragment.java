@@ -197,10 +197,10 @@ public class SignUpFragment extends Fragment {
         sellerPortal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                setFragment(new SellerSignInFragment());
+                setFragment(new SellerSignInFragment());
 
-                Intent registerIntent = new Intent(getActivity(), SellerRegisterActivity.class);
-                startActivity(registerIntent);
+//                Intent registerIntent = new Intent(getActivity(), SellerRegisterActivity.class);
+//                startActivity(registerIntent);
 
             }
         });
