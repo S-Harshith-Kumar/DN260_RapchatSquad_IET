@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "484820141440",
+    "firebase_url": "https://harshith-ecommerce.firebaseio.com",
+    "project_id": "harshith-ecommerce",
+    "storage_bucket": "harshith-ecommerce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484820141440:android:94e0043fe9f7879dd92d65",
+        "android_client_info": {
+          "package_name": "com.example.harshith_ecommerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "484820141440-5dekr5f11tbinojg4r673lrq1psl5cre.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.harshith_ecommerce",
+            "certificate_hash": "42ead43f3175f706ef38db0786f21c2102bcad38"
+          }
+        },
+        {
+          "client_id": "484820141440-bmc9mbca0tkmots5gplnjn94hcj0krvr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXvnBW8JYAwTwjWbldmwhLfLlBoo9T4Hc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "484820141440-bmc9mbca0tkmots5gplnjn94hcj0krvr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
